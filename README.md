@@ -18,6 +18,8 @@ As the `docker-compose.yml` file says, open on port 3000 (for http). Use the dig
 
 http://165.227.95.56:3000/author/Dickinson
 
+http://165.227.95.56:3000/author/Emily%20Dickinson
+
 Note, this is the link I'm using, but I'm only running it while testing/experimenting. So there's no reason to click on it since it likely won't be functional.  I'm just showing it as an example of how to form your URL.
 
 **Durant's Notes END**
