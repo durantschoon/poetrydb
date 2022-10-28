@@ -1,5 +1,27 @@
 # PoetryDB
 
+### Durant's Notes
+### Digital Ocean
+
+Ubuntu 18.04 (not sure why I chose such an old one, but it works)
+```sh
+snap install docker
+docker images # does docker work? 
+docker volume create mongo-volume # named in docker-compose.yml
+docker volume ls # verify
+git clone https://github.com/durantschoon/poetrydb.git # pretty much unchanged from the orginal I forked
+cd poetrydb
+docker compose up
+```
+
+As the `docker-compose.yml` file says, open on port 3000 (for http). Use the digital ocean dashboard to find the full IP address for URL, e.g.
+
+http://165.227.95.56:3000/author/Dickinson
+
+Note, this is the link I'm using, but I'm only running it while testing/experimenting. So there's no reason to click on it since it likely won't be functional.  I'm just showing it as an example in case anyone else tries it)
+
+**Durant's Notes END**
+
 ## Introduction
 
 PoetryDB is an API for internet poets. <i>But what is an API? </i>
